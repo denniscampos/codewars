@@ -33,8 +33,8 @@ function nbYear(p0, percent, aug, p) {
   const percentage = percent / 100; // converts number to percentage
   let years = 0; // to loop
 
-  while (results < p) {
-    results += results * percentage + aug; // formula
+  while (p0 < p) {
+    p0 += p0 * percentage + aug; // formula
     years++; // increase year if true
   }
 
