@@ -3,7 +3,7 @@ An isogram is a word that has no repeating letters, consecutive or non-consecuti
 
 isIsogram("Dermatoglyphics") == true
 isIsogram("aba") == false
-isIsogram("moOse") == false // -- ignore letter case
+isIsogram("moOse") == false // -- ignore letter case ..
 */
 
 function isIsogram(str) {
