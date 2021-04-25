@@ -8,7 +8,11 @@ XO("xooxx") => false
 XO("ooxXm") => true
 XO("zpzpzpp") => true // when no 'x' and 'o' is present should return true
 XO("zzoo") => false
+<<<<<<< HEAD
 ......
+=======
+.
+>>>>>>> 85c299938c649f75f00b037764e39f2d6298c31e
 */
 
 function xo(str) {
