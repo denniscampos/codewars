@@ -19,3 +19,4 @@ function formatMoney(amount){
 
 // better solution
 const formatMoney = amount => "$" + amount.toFixed(2)
+
