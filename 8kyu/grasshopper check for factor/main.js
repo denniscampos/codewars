@@ -23,3 +23,7 @@ function checkForFactor(base, factor) {
 
 //es6 solution
 const checkForFactor = (base, factor) => (base % factor === 0 ? true : false);
+
+// shorter solution
+// checks for boolean value regardless so ternary operator not needed.
+const checkForFactor = (base, factor) => base % factor === 0;
